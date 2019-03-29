@@ -1,0 +1,76 @@
+.form-container{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+	margin:0 auto;
+}
+form{
+	flex-basis: 30vh;
+    border-radius:10px 10px 0.25em 0.25em;
+    background: #191919
+}
+input{
+	padding:1px;
+	background: #191919;
+	border: 1px solid black;
+	border-width: 1px 1px 1px 0;
+	border-radius: 5px;
+	color: white;
+	height: 35px;
+	width: 200px;
+}
+.form-field{
+	margin-bottom:1em;
+	margin-top:1em;
+	display:flex;
+}
+.header{
+	color:#f8f8f8;
+	font-size: 15px;
+	display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-basis: 30vh;	
+    border-radius: 10px 10px 0 0;	
+    background: linear-gradient(to top, #8e1700, #b51d00);
+}
+.header h2{
+	font-family: Arial, sans-serif;
+	font-weight:100;
+}
+#logo{
+	padding: 15px;
+	font-size: 25px;
+}
+#submit{
+	float: right;
+	color: white;
+	padding: 10px;
+	background: #232323;
+	margin-top: -20px;
+	margin-right:20px;	
+	width: 80px;	
+}
+.chektext{
+	color: white;
+	margin-left: 85px;
+	margin-bottom: -15px; 	
+}
+#chek{
+   width: 15px;
+   margin-top: -10px;
+   margin-left: 70px;	
+}
+.chek{
+	margin-top: -10px;
+	margin-left: -45px;
+}
+.forgpass a{
+	text-decoration: none;
+	color: #4d504d;
+	padding-right: 10px;
+}
+.forgpass{
+	margin-left: 25px; 
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="js.js"></script>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+	 <div class="form-container">
+	 	<form action="" id="form">
+	 		<div class="header">
+	 		<h2>Форма Входа</h2>
+	 	</div>
+	 		<div class="form-field input-right">
+	 			<i class="fa fa-user" aria-hidden="true" id="logo"></i>
+	 			<input type="Username" name="username" id="username" placeholder="Username" required>
+	 		</div>
+	 		<div class="form-field input-right">
+	 			<i class="fa fa-lock" aria-hidden="true" id="logo"></i>
+	 			<input type="password" name="pass" id="pass" placeholder="*******" required>
+	 		</div>
+	 		<div class="submit">
+	 			<input type="button" id="submit" name="button" value="Войти" onclick="valid(document.getElementById('form'))">
+	 		</div>	
+	 		<div class="chek">	
+	 			<p class="chektext">
+	 			запомнить</p>
+	 			<input type="checkbox" id="chek">
+	 			</div>
+	 			<div class="forgpass">
+	 				<a href="">Забыли пароль</a>
+	 				<a href="">Регестрация</a>
+	 			</div>
+	 	</form>
+	 </div>
+
+</body>
+</html>
